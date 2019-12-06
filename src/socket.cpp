@@ -1,12 +1,15 @@
 #include <iostream>
 #include "socket.h"
 
-void Socket::setName(const std::string & name)
+namespace smtpclient
 {
-    sockname = name;
-}
+    void Socket::setName(const std::string & name)
+    {
+        sockname = name;
+    }
 
-void Socket::show()
-{
-    std::cout << "sockname: " << sockname << std::endl;
+    void Socket::show()
+    {
+        std::cout << "sockname: " << sockname << std::endl;
+    }
 }

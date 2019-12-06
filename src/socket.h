@@ -2,12 +2,15 @@
 
 #include <string>
 
-class Socket
+namespace smtpclient
 {
-    private:
-        std::string sockname;
+    class Socket
+    {
+        private:
+            std::string sockname;
 
-    public:
-        void setName(const std::string & name);
-        void show();
-};
+        public:
+            void setName(const std::string & name);
+            void show();
+    };
+}

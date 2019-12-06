@@ -1,5 +1,7 @@
 #include "socket.h"
 
+using namespace smtpclient;
+
 int main()
 {
     Socket sock;
