@@ -1,2 +1,2 @@
-app: socket.cpp main.cpp
-	g++ socket.cpp main.cpp -o app.o
+app: client.cpp main.cpp
+	g++ client.cpp main.cpp -o app.o
